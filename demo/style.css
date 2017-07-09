@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrap{
+	width: 820px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	font-family: "Grill Sans MT", Arial, sans-serif;
+	overflow: hidden;
+}
+header{
+	margin-bottom: 20px;
+	padding-left: 17px;
+	width: 100%;
+	min-height: 118px; 
+	background: #ff9800;
+}
+header h1{
+	line-height: 265%;
+	font-weight: 300;
+}
+.side1, .side2, .side3{
+	overflow: hidden;
+	font-size: 16px;
+    /*background: #93dfdb;*/
+    line-height: 145%; 
+}
+img{
+	width: 100%;
+    min-height: 100px; 
+    margin: 0 auto;
+}
+.side1 h2{
+	font-weight: 300;
+	font-size: 30px;
+}
+.side2 h2{
+	font-weight: 300;
+	font-size: 30px;
+}
+.side3 h2{
+	font-weight: 300;
+	font-size: 30px;
+}
+.txt{
+	margin-top: 14px;
+    line-height: 143%;
+}
+.side1{
+	width: 32%;
+    float: left;
+    padding: 4px 0px 0 17px;
+}
+.side2{
+	width: 30%;
+    margin: 0 auto;
+    padding: 3px 0 0 0px;
+}
+.side3{
+	width: 33%;
+    float: right;
+    padding: 3px 17px 0 4px;
+}
+@media screen and (min-width: 960px) {
+	img{
+		width: 40%;
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 480px) {
+	.side1, .side2, .side3 {
+		width: 100%;
+		padding: 5px 5px 5px 10px;
+	}
+	img{
+		width: 50%;
+		max-height: 200px;
+		text-align: center;
+	}
+}
