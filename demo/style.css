@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 .wrap{
-	width: 820px;
+	width: 61%;
 	margin: 0 auto;
 	/*border: 1px solid black;*/
 	font-family: "Grill Sans MT", Arial, sans-serif;
@@ -67,6 +67,11 @@ img{
 	img{
 		width: 40%;
 		display: inline-block;
+	}
+}
+@media screen and (max-width: 800px) {
+	.wrap{
+		width: 90%;
 	}
 }
 @media screen and (max-width: 480px) {
